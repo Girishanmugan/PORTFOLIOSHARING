@@ -25,7 +25,7 @@ function Home({ isLoggedIn }) {
 
   const fetchPortfolios = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/portfolio/all');
+      const response = await axios.get(' https://portfoliosharing.onrender.com/api/portfolio/all');
       setPortfolios(response.data);
     } catch (err) {
       setError('Failed to load portfolios');

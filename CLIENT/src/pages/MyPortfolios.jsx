@@ -35,7 +35,7 @@ function MyPortfolios({ onEdit, onMessage }) {
   const fetchMyPortfolios = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get('http://localhost:5000/api/portfolio/my-portfolios', {
+      const response = await axios.get(' https://portfoliosharing.onrender.com/api/portfolio/my-portfolios', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setPortfolios(response.data);

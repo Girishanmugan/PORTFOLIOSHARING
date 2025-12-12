@@ -27,7 +27,7 @@ function EditPortfolio({ portfolioId, onMessage, onSuccess, onNavigate }) {
 
   const fetchPortfolio = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/portfolio/${portfolioId}`);
+      const response = await axios.get(` https://portfoliosharing.onrender.com/api/portfolio/${portfolioId}`);
       const { title, description, link, technologies } = response.data;
       setTitle(title);
       setDescription(description);

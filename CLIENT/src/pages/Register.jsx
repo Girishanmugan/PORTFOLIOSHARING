@@ -26,7 +26,7 @@ function Register({ onRegister, onMessage }) {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post(' https://portfoliosharing.onrender.com/api/auth/register', {
         name,
         email,
         password,
