@@ -12,7 +12,7 @@ import {
   Stack,
 } from '@mui/material';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import '../App.css';
+// App.css is now imported globally in src/main.jsx
 
 function Home({ isLoggedIn }) {
   const [portfolios, setPortfolios] = useState([]);

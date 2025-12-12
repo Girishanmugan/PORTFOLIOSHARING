@@ -19,7 +19,6 @@ import {
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import '../App.css';
 
 function MyPortfolios({ onEdit, onMessage }) {
   const [portfolios, setPortfolios] = useState([]);

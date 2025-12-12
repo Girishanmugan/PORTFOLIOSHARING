@@ -11,7 +11,7 @@ import {
   Container,
 } from '@mui/material';
 import LoginIcon from '@mui/icons-material/Login';
-import '../App.css';
+// App.css is now imported globally in src/main.jsx
 
 function Login({ onLogin, onMessage }) {
   const [email, setEmail] = useState('');

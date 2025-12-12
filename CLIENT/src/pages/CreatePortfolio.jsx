@@ -11,7 +11,7 @@ import {
   Stack,
 } from '@mui/material';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import '../App.css';
+// App.css is now imported globally in src/main.jsx
 
 function CreatePortfolio({ onMessage, onSuccess, onNavigate }) {
   const [title, setTitle] = useState('');

@@ -11,7 +11,7 @@ import {
   Stack,
 } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
-import '../App.css';
+// App.css is now imported globally in src/main.jsx
 
 function EditPortfolio({ portfolioId, onMessage, onSuccess, onNavigate }) {
   const [title, setTitle] = useState('');

@@ -11,7 +11,7 @@ import {
   Container,
 } from '@mui/material';
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
-import '../App.css';
+// App.css is now imported globally in src/main.jsx
 
 function Register({ onRegister, onMessage }) {
   const [name, setName] = useState('');
